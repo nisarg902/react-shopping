@@ -1,2 +1,1 @@
- M auto-push-optimized.bat
-?? temp.txt
+ M temp.txt
