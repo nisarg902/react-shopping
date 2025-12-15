@@ -3,7 +3,8 @@ export default function NetflixRegisterComponents() {
     
     are youeitht ready?
        <div>
-        
+         <input type
+
        </div>
     </div>;
 }
