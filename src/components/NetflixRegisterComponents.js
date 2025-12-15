@@ -3,9 +3,7 @@ export default function NetflixRegisterComponents() {
     
     are youeitht ready?
        <div>
-         <input type="email">
-                  <button className="btn btn-danger">GET started </button>
-         </input>
+         <input type="email"></input>
 
             
        </div>
