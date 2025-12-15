@@ -1,12 +1,11 @@
 export default function NetflixRegisterComponents() {
-  return <div className="fluid-Container text-center mt-3">
-       <h3> Unlimited movies, shows, and more</h3>
+  return <div className="text-center">
+     
 
-  Ready to watch? Enter your email to create or restart your membership.
-      < p>Starts at ₹149. Cancel at any time.</p>
-       <div>
-         <input type="email"></input>
-         <button className="btn btn-danger m-3">GET started <i class="bi bi-caret-right-square-fill"></i></button>
+
+         <div className="input-group input-group-lg center ">
+         <input type="email" className="form-control"></input>
+         <button className="btn btn-danger ">GET started <i class="bi bi-chevron-right"></i></button>
             
        </div>
     </div>;
