@@ -1,4 +1,4 @@
-import AmazonComponents from './components/AmazonComponents';
+import AmazonComponents from './components/NetflixRegisterComponents';
 
 function App() {
   return <AmazonComponents />;
