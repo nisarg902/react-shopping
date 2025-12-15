@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import '../node_modules/bootstrap/'
+import '../node_modules/bootstrap/dist/css/'
 
 import NetflixRegisterComponents from './components/NetflixRegisterComponents';
 
