@@ -6,7 +6,7 @@ export default function NetflixRegisterComponents() {
       < p>Starts at ₹149. Cancel at any time.</p>
        <div>
          <input type="email"></input>
-         <button className="btn btn-danger m-3">GET started </button>
+         <button className="btn btn-danger m-3">GET started <i class="bi bi-caret-right-square-fill"></i></button>
             
        </div>
     </div>;
