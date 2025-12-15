@@ -1,3 +1,3 @@
 export default function AmazonComponents() {
-  return <h2>are you ready?</h2>;
+  return <h2>are youeitht ready?</h2>;
 }
