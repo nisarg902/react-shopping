@@ -1,7 +1,8 @@
+import NetflixRegisterComponents from './components/NetflixRegisterComponents';
 import AmazonComponents from './components/NetflixRegisterComponents';
 
 function App() {
-  return <AmazonComponents />;
+  return <NetflixRegisterComponents />;
 }
 
 export default App;
