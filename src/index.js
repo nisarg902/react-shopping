@@ -1,13 +1,13 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
-import NetflixRegisterComponent from './components/NetflixRegisterComponent';
+import App from './App';
+import AmazonComponents from './components/AmazonComponents';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <NetflixRegisterComponent />
+    <AmazonComponents />
   </React.StrictMode>
 );
