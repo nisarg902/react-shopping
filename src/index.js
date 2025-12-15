@@ -10,4 +10,4 @@ root.render(
   <React.StrictMode>
     <NetflixRegisterComponents />
   </React.StrictMode>
-);
+); 
