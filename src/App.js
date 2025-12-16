@@ -1,7 +1,15 @@
-import NetflixRegisterComponents from './components/NetflixRegisterComponents';
+ import   {useState} from  "react";
+   import Event from "./components/Event";
+ export default function App () {
 
-function App() {
-  return <NetflixRegisterComponents />;
-}
+     
+       return  (
+         <div>
+              < Event>
+              </Event>
+           
+         </div>
 
-export default App;
+       );
+  }
+
