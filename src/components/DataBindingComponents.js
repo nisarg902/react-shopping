@@ -1,39 +1,44 @@
-
 import React from "react";
 
+const DataBindingComponents = () => { 
+    
+     var menu =[
+      {category:'electronic',products:["mobile","LedTv"]},
+      {category:'footwear',products:["nike casual","LeeBOOOt"]}
+     ]
+        
+     return(
+      <div>
+          {
+            menu.map(item=>
+              <ol key={item.category}>{item.category}
+                 <ul>{
+                       item.products.map(product=>
+                        <li key={product}>{product}</li>
+                       )
+                  
+                  }</ul>
+              </ol>
 
-
-const DataBindingComponents = () => {
-
-   var products = [
-          {  Name:"karan", price:"200" },
-          {  Name:"kiran", price:"290" }
-
-   ]
-
-
-  return (
-    <div>
-        <h2>Table Representation</h2>
-        <table>
-             <thead>
-          <tr>
-            <th>NAME</th>
-            <th>PRICE</th>
-          </tr>
-        </thead>
-             <tbody>
-          { products.map((product, index) => (
-            <tr key={index}>
-                <td>{product.name}</td>
-                <td>{product.price}</td>
-            </tr>
-            ))
+              
+            )
           }
-        </tbody>
-        </table>
-    </div>
-  )
-}
+          <select>
+            {
+               menu.map(item=>
+                <optgroup key={item.category} label={item.category}>
+                   {
+                    item.products.map(product=>
+                      <option key={product} >{product}</option>
+                    )
+                   }
+                </optgroup>
+               )
+            }
+          </select>
+      </div>
+     )
 
-export default DataBindingComponents
+  }
+
+export default DataBindingComponents;

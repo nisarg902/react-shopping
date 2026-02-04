@@ -1,13 +1,19 @@
  import   {useState} from  "react";
-   import Event from "./components/Event";
+  
  export default function App () {
-
+       
      
+    const [name,setName]=useState("Hello")
        return  (
          <div>
-              < Event>
-              </Event>
-           
+            <input type="text"
+             value={name} 
+             onChange={(e)=>setName(e.target.value)
+
+             }/> 
+             <h3>Your Name: {name}</h3>
+             
+        
          </div>
 
        );
